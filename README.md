@@ -59,9 +59,9 @@ This project demonstrates:
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/home_screen.png" width="230">
-  <img src="screenshots/recipe_list.png" width="230">
-  <img src="screenshots/add_recipe.png" width="230">
+  <img src="screenshots/home.jpg" width="230">
+  <img src="screenshots/MainActivityAddmeal.jpg" width="230">
+  <img src="screenshots/MealDetailActivityExpanded.jpg" width="230">
 </p>
 
 More screenshots available here:
