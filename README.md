@@ -1,7 +1,7 @@
 # Recipe Mobile App (Mealmate)
 
 <p align="center">
-  <img src="app/src/main/res/drawable/logowithmotto2.pngg" width="300">
+  <img src="app/src/main/res/drawable/logowithmotto2.png" width="300">
 </p>
 
 MealMate is a mobile recipe management application developed using **Native Android (Java)**.  
