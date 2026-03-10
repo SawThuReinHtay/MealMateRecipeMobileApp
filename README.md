@@ -62,6 +62,7 @@ This project demonstrates:
   <img src="screenshots/home.jpg" width="230">
   <img src="screenshots/MainActivityAddmeal.jpg" width="230">
   <img src="screenshots/MealDetailActivityExpanded.jpg" width="230">
+  <img src="screenshots/test25.1.jpg" width="230">
 </p>
 
 More screenshots available here:
