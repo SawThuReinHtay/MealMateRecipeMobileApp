@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NormalButtonPrimary">
+        <item name="android:background">@drawable/normal_primary_button</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:backgroundTintMode">src_in</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+    <style name="NormalButtonSecondary">
+        <item name="android:background">@drawable/normal_secondary_button</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:backgroundTintMode">src_in</item>
+        <item name="android:textColor">@color/secondary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="TabTextBold" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="NormalText" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+    <style name="CustomSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:popupBackground">@color/accent2</item> <!-- Change background color here -->
+    </style>
+
+
+
+</resources>

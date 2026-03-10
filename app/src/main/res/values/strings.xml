@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MealMate</string>
+    <string name="title_home">Home</string>
+    <string name="title_recipe">Add Recipe</string>
+    <string name="title_profile">Profile</string>
+    <string name="default_web_client_id">1028673492561-7hsvui7krsv9ls26cerpoih4l0kdgfme.apps.googleusercontent.com</string>
+    <string-array name="serving_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </string-array>
+
+</resources>

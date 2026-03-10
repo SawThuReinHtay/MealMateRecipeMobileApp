@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary">
+
+    <EditText
+        android:id="@+id/name_input"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColorHint="@color/edittext_color"
+        android:textColor="@color/edittext_color"
+        android:backgroundTint="@color/edittext_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/email_input"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/edittext_color"
+        android:textColor="@color/edittext_color"
+        android:backgroundTint="@color/edittext_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/password_input"
+
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/edittext_color"
+        android:textColor="@color/edittext_color"
+        android:backgroundTint="@color/edittext_color"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/register_button"
+        style="@style/NormalButtonPrimary"
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_signin_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        app:buttonSize="wide" />
+
+</LinearLayout>
